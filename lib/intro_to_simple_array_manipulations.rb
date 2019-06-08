@@ -161,7 +161,7 @@ describe "#using_flatten" do
   end
 end
 
-describe "#using_delete" do
+def using_delete
     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
       no_offense_steven = using_delete(instructors, "Steven")
       expect(instructors).not_to include("Steven")
