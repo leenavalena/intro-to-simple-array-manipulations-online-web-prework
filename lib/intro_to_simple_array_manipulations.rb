@@ -127,7 +127,7 @@ it "increases the length of the first array" do
   end
 end
 
-describe "#using_insert" do
+def using_insert
   before(:each) do
     @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
     @another_esoteric_language = "Malbolge"
