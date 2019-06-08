@@ -122,7 +122,7 @@ it "takes in two arguments of two different arrays and uses the concat method to
   expect(@all_my_favs).to eq(["raindrops on roses", "whiskers on kittens", "mario kart", "flatiron school"])
 end
 
-it "increases the length of the first array" do
+it "increases the length of the first array"
   expect(@my_favorite_things.length).to be > 2
   end
 end
