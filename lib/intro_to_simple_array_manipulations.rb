@@ -112,7 +112,7 @@ expect(@brands_removed.size).to eq(2)
 end
 end
 
-describe "#using_concat" do
+def using_concat
 before(:each) do
   @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
     more_favs = ["mario kart", "flatiron school"]
