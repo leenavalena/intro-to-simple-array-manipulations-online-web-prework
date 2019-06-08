@@ -153,7 +153,7 @@ describe "#using_uniq" do
   end
 end
 
-describe "#using_flatten" do
+def using_flatten
   it "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do
     private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
     flat_array = using_flatten(private_colleges_in_newyork)
