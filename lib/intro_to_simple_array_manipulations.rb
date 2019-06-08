@@ -82,7 +82,7 @@ expect(@chars_in_game_of_thrones.size).to eq(2)
 end
 end
 
-describe "#using_shift" do
+def using_shift
 before(:each) do
 @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
 @im_so_over_this_city = using_shift(@my_favorite_cities)
